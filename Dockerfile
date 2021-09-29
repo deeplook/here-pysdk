@@ -28,7 +28,7 @@ RUN micromamba install -y -n base -f /tmp/env.yaml && \
     apt-get clean
     # -------------------------------------------
 
-COPY ./credentials/credentials.properties /root/.here
+# COPY ./credentials/credentials.properties /root/.here
 
 WORKDIR /home/share_w_host
 
